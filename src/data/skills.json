@@ -1,5 +1,25 @@
 [
     {
+        "title": "Python", 
+        "imageSrc": "skills/python.png"
+    }, 
+    {
+        "title": "JavaScript", 
+        "imageSrc": "skills/js-logo.png"
+    },
+    {
+        "title": "React", 
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title": "SQL", 
+        "imageSrc": "skills/sql.png"
+    },
+    {
+        "title": "SQLite3", 
+        "imageSrc": "skills/sqlite.png"
+    },
+    {
         "title": "C++",
         "imageSrc": "skills/cpp.png" 
     },
@@ -12,9 +32,9 @@
         "imageSrc": "skills/java-logo.png"
     },
     {
-        "title": "Python", 
-        "imageSrc": "skills/python.png"
-    }, 
+        "title": "R", 
+        "imageSrc": "skills/r_logo.png"
+    },
     {
         "title": "HTML", 
         "imageSrc": "skills/html.png"
@@ -23,14 +43,6 @@
         "title": "CSS",
         "imageSrc": "skills/css.png" 
     },
-    {
-        "title": "JavaScript", 
-        "imageSrc": "skills/js-logo.png"
-    },
-    {
-        "title": "React", 
-        "imageSrc": "skills/react.png"
-    }, 
     {
         "title": "Node", 
         "imageSrc": "skills/node.png"
@@ -42,5 +54,13 @@
     {
         "title": "JUnit", 
         "imageSrc": "skills/junit.png"
+    },
+    {
+        "title": "Tailwind CSS",
+        "imageSrc": "skills/tailwind.png"
+    }, 
+    {
+        "title": "Bootstrap", 
+        "imageSrc": "skills/bootstrap.png"
     }
 ]
