@@ -1,18 +1,28 @@
 [
     {
-        "role": "Web Developer", 
-        "date": "January 2025 - Present", 
+        "role":"Web Developer",
+        "date": "August 2025 - Present", 
+        "organization": "UNICEF SFU", 
+        "descriptions": [
+            "Collaborating with design team and developer to plan and prototype a website to showcase UNICEF’s initiatives and expand visibility beyond the SFU community",
+            "Working closely with board members to gather requirements and translate organizational goals into website features and content"
+        ],
+        "skills": ["React", "Tailwind CSS", "Figma"]
+    },
+    {
+        "role": "Software Developer", 
+        "date": "Jan 2025 - Jul 2025", 
         "organization": "Engineering Without Borders @ SFU", 
         "descriptions": [
             "Design and develop front-end using React and CSS to create a responsive web application that works across desktops, mobile, and other devices with an user-friendly interface",
             "Ensure website design and functionality aligns with the club’s vision and information is up-to-date",
             "Collaborate with Webmaster to integrate front-end code with server-side logic"
         ],
-        "skills": ["React", "CSS", "Node.JS", "Express.JS"]
+        "skills": ["React", "CSS", "Node.js", "Express.js"]
     },
     {
         "role": "Coding Instructor", 
-        "date": "August 2024 - Present",
+        "date": "Aug 2024 - Sep 2025",
         "organization": "The C.O.D.E. Initiative", 
         "descriptions": [
             "Conduct one-on-one online programming sessions in Java or Scratch for neurodivergent children, adapting teaching methods to meet individual learning needs", 

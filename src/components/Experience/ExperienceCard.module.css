@@ -16,8 +16,13 @@
     color: var(--color-light-text);
 }
 
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
 .date {
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
 }
 
@@ -39,10 +44,11 @@
 
 .skill {
     list-style: none;
-    color: var(--color-light-text);
-    background-color: var(--color-dark);
+    background: var(--color-bg);
+    color: var(--color-purple);
     padding: 5px 10px;
     border-radius: 10px;
+    font-weight: 700;
 }
 
 .desc {

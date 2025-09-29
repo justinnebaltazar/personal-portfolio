@@ -6,8 +6,10 @@ export const ExperienceCard = ({ experience : {role, date, organization, descrip
         <div className={styles.container}>
             <div className={styles.content}>
                 <h3 className={styles.role}>{role}</h3>
-                <h4 className={styles.date}>{date}</h4>
-                <h4 className={styles.org}>{organization}</h4>
+                <div className={styles.info}>
+                    <h4 className={styles.org}>{organization}</h4>
+                    <h4 className={styles.date}>{date}</h4>
+                </div>
                 <ul className={styles.skills}>
                     {skills && skills.map((skill, id) => {
                         return (
