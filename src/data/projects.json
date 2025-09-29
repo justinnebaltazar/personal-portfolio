@@ -27,17 +27,6 @@
       "recent": false
     },
     {
-      "title": "This website!",
-      "projectType": "Website Development",
-      "imageSrc": "projects/portfolio.png",
-      "description": "A portfolio showcasing my projects, skills, experience, and a little bit about me!",
-      "skills": ["React", "CSS", "JavaScript", "Vite", "Netlify"],
-      "demo": null,
-      "source": null, 
-      "componentTitle": "portfolio", 
-      "recent": false
-    },
-    {
       "title": "Undercooked",
       "projectType": "Game Development",
       "imageSrc": "projects/StartScreen.png",
@@ -48,15 +37,15 @@
       "componentTitle": "undercooked", 
       "recent": false
     },
-    {
-      "title": "RISC-V Emulator",
-      "projectType": "Software Development",
-      "imageSrc": "projects/project.png",
-      "description": "An emulator for executing a subset of the RISC-V instruction set, capable of decoding RISC-V instructions.",
-      "skills": ["C++", "C", "CGDB", "CUnit"],
+        {
+      "title": "Personal Portfolio",
+      "projectType": "Website Development",
+      "imageSrc": "projects/portfolio.png",
+      "description": "A portfolio showcasing my projects, skills, experience, and a little bit about me!",
+      "skills": ["React", "CSS", "JavaScript", "Vite", "Netlify"],
       "demo": null,
       "source": null, 
-      "componentTitle": "riscv", 
+      "componentTitle": "portfolio", 
       "recent": false
     },
     {

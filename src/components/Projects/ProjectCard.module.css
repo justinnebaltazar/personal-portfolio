@@ -1,7 +1,7 @@
 @import "../../variables.css";
 
 .container {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -24,7 +24,6 @@
     align-items: center;
     justify-content: center;
 }
-
 
 .image {
     width: 80%; 
@@ -68,7 +67,7 @@
 
 .skill {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     border-radius: 12px;
     background: var(--color-bg);
     padding: 2px 22px;
@@ -96,4 +95,45 @@
 
 .imageContainer:hover .image {
     opacity: 0.3;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        flex: 1;
+    }
+    
+    .imageContainer {
+        max-width: 40%;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imageContainer {
+        max-width: 100%; /* add this to override the default */
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        min-height: 200px;
+    }
+    
+    .image {
+        display: flex;
+        width: 100%;
+    }
 }

@@ -2,15 +2,17 @@
 
 .container {
     flex: 1 1 300px;           
-    max-width: 400px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     background-color: var(--color-dark-bg);
     box-shadow: 0 16px 14px 0 #0d0d13;
-    padding: 18px 24px;
+    padding: 18px 32px;
     margin-bottom: 20px;
     color: var(--color-bg);
+    align-items: center;
+    justify-content: center;
 }
 
 .imageContainer {
@@ -18,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
+    margin: 15px 0px;
 }
 
 
@@ -37,11 +39,16 @@
     font-weight: 700;
     text-transform: uppercase;
     color: var(--color-bg);
+    margin-bottom: 10px; 
+}
+
+.projectType {
+    font-size: 25px;
 }
 
 .description {
     margin-top: 6px; 
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 400;
 }
 
@@ -56,8 +63,8 @@
 }
 
 .skill {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 700;
     border-radius: 12px;
     background: var(--color-bg);
     padding: 2px 22px;
