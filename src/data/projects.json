@@ -1,25 +1,46 @@
 [
-    {
+  {
+    "title": "Waste Image Classification",
+    "projectType": "Machine Learning",
+    "imageSrc": null,
+    "description": "A deep learning model built with PyTorch to classify waste into four categories—compost, recycle, paper, and trash. Trained on a combined dataset using custom DataLoaders, extensive preprocessing, and hyperparameter tuning. Includes evaluation through confusion matrices, classification reports, and a Flask API for real-time predictions.",
+    "skills": ["PyTorch", "Python", "NumPy", "pandas", "Matplotlib", "Scikit-learn", "Flask"],
+    "recent": true,
+    "source": null
+  }, 
+  {
+    "title": "Anomaly Detection in Energy Consumption",
+    "projectType": "Data Science",
+    "imageSrc": null,
+    "description": "Analyzed a 1.5M+ row energy consumption dataset and trained multiple Hidden Markov Models to detect anomalies. Identified an optimal 15-state model and applied data preprocessing techniques to improve accuracy and robustness.",
+    "skills": ["R", "HMMs", "Time-Series Analysis", "Data Cleaning", "ggplot2", "dplyr"],
+    "recent": false,
+    "source": "https://github.com/ConorB513/CMPT-318_GroupWork"
+  },
+
+  {
       "title": "Library Database Management",
       "projectType": "Full-Stack Application", 
       "imageSrc": "projects/354-library-light.png",
       "description": "A mini-project to showcase our ability to design, create, manage, and implement a SQL database to capture the real-world requirements of a functioning library. It is currently being updated from a Python Qt GUI to React.js and Tailwind CSS front-end", 
       "skills": ["SQL", "Python", "Qt"],
-      "recent": true
+      "recent": true,
+      "source": "https://github.com/justinnebaltazar/library-database"
     },
     {
       "title": "Find-Your-Matcha",
       "projectType": "Hackathon Project", 
       "imageSrc": "projects/find-your-matcha.jpg",
-      "description": "A hackathon project created for matcha lovers made by self-proclaimed matcha connoisseurs! This full-stack application features user reviews, finds the closest cafes near you, and [another function].", 
-      "skills": ["React", "Tailwind CSS", "Supabase", "noSQL", "MapBox API"],
-      "recent": true
+      "description": "Find Your Matcha is a full-stack web app built during a 24-hour hackathon. Users can discover nearby matcha cafés, browse reviews, and add new spots through a Mapbox-powered interface. I implemented the Supabase backend for authentication, data storage, and review management.", 
+      "skills": ["React", "Supabase", "Tailwind CSS", "PostgreSQL", "MapBox API", "Geolocation API"],
+      "recent": true,
+      "source": "https://github.com/aleung30/find-your-matcha"
     },
     {
       "title": "Tetris Clone", 
-      "projectType": "Website Development",
+      "projectType": "Game Development",
       "imageSrc": "projects/tetris-clone.png",
-      "description": "A Tetris clone built with React, Vite, and CSS Module as a Web Application", 
+      "description": "A fully interactive Tetris clone implemented as a web application using React, Vite, and CSS. The game includes responsive controls, rotation mechanics, collision handling, line-clearing logic, and score tracking.", 
       "skills": ["React", "CSS", "JavaScript", "Vite"],
       "demo": null,
       "source": null,
@@ -30,33 +51,11 @@
       "title": "Undercooked",
       "projectType": "Game Development",
       "imageSrc": "projects/StartScreen.png",
-      "description": "A 2D Java Desktop App done through an introduction to software engineering course as a semester-long project.",
+      "description": "A 2D Java desktop application developed as a semester-long software engineering project. Implemented object management, collision detection, and enemy movement mechanics while working in an Agile team environment.",
       "skills": ["Java", "Maven", "JUnit", "Java Swing"],
-      "demo": "https://www.loom.com/share/ebcc60e774f94c19bc8bbec8f4569c90",
-      "source": null, 
-      "componentTitle": "undercooked", 
-      "recent": false
-    },
-        {
-      "title": "Personal Portfolio",
-      "projectType": "Website Development",
-      "imageSrc": "projects/portfolio.png",
-      "description": "A portfolio showcasing my projects, skills, experience, and a little bit about me!",
-      "skills": ["React", "CSS", "JavaScript", "Vite", "Netlify"],
       "demo": null,
       "source": null, 
-      "componentTitle": "portfolio", 
-      "recent": false
-    },
-    {
-      "title": "Etch-A-Sketch",
-      "projectType": "Website Development",
-      "imageSrc": "projects/sketch-app.png",
-      "description": "A browser-based sketchpad application with responsiveness and capable of interactive user features.",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "demo": "https://github.com/justinnebaltazar/etch-a-sketch",
-      "source": "https://github.com/justinnebaltazar/etch-a-sketch",
-      "componentTitle": "sketch", 
+      "componentTitle": "undercooked", 
       "recent": false
     }
   ]
