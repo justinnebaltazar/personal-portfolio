@@ -6,7 +6,8 @@ import { Skills } from "./components/Skills/Skills";
 import { Projects } from "./components/Projects/Projects";
 import { Contact } from "./components/Contact/Contact";
 import { Experience } from "./components/Experience/Experience";
-import { PastProjects } from "./components/Projects/PastProjects";
+import { PastProjectsPage } from "./components/Projects/PastProjectsPage";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,12 +19,13 @@ function App() {
               <Navbar />
               <Hero />
               <Projects />
-              <PastProjects/>
               <Experience/>
               <Skills />
               <Contact />
+              <Footer />
             </>
           } />
+          <Route path="/past-projects" element={<PastProjectsPage />} />
           <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>
       </Router>

@@ -7,15 +7,16 @@
     border-radius: 10px;
     background-color: var(--color-dark-bg);
     box-shadow: 0 16px 14px 0 #0d0d13;
-    padding: 18px 24px;
+    padding: 48px 32px;
     margin-bottom: 20px;
-    color: var(--color-bg);
+    color: var(--color-bg);;
 }
 
 .content {
     flex: 2;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
 .imageContainer {
@@ -23,15 +24,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 0;
 }
 
 .image {
     width: 80%; 
     display: block;
-    margin: 5px auto; 
+    margin: 0 auto; 
     border-radius: 10px;
     opacity: 1;
-    height: 80%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
     transition: .5s ease;
     backface-visibility: hidden;
 }
@@ -40,6 +44,11 @@
     font-size: 25px;
     font-style: italic;
     font-weight: 500;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 12px;
+    min-height: 30px;
+    line-height: 1.2;
 }
 
 .title {
@@ -47,17 +56,27 @@
     font-weight: 700;
     text-transform: uppercase;
     color: var(--color-bg);
+    margin: 0;
+    margin-bottom: 8px;
+    min-height: 48px;
+    line-height: 1.2;
+    display: flex;
+    align-items: flex-start;
 }
 
 .description {
-    margin-top: 6px; 
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
     font-size: 20px;
     font-weight: 400;
+    line-height: 1.4;
 }
 
 .skills {
     width: 100%;
-    margin-top: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -70,13 +89,13 @@
     font-weight: 700;
     border-radius: 12px;
     background: var(--color-bg);
-    padding: 2px 22px;
+    padding: 10px 15px;
     color: var(--color-purple);
 }
 
 .links {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 15px;
     display: flex;
     justify-content: flex-start;
@@ -88,9 +107,9 @@
     color: var(--color-btn); 
     font-size: 20px;
     font-weight: 600;
-    border-radius: 12px;
+    border-radius: 6px;
     background: var(--color-secondary);
-    padding: 1px 22px;
+    padding: 10px 15px;
 }
 
 .imageContainer:hover .image {

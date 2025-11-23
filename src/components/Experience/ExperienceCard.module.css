@@ -1,13 +1,14 @@
 @import "../../variables.css";
 
 .container {
-    width: 90%;
+    width: 100%;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     background-color: var(--color-dark-bg);
     border-radius: 10px;
-    padding: 18px 24px;
-    margin-bottom: 20px;
+    padding: 24px 28px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .content {
@@ -18,41 +19,63 @@
 
 .info {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 12px;
 }
 
 .date {
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
+    color: var(--color-light-text);
+    opacity: 0.9;
 }
 
 .role {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 900;
+    margin-bottom: 8px;
+    color: var(--color-light-text);
 }
 
 .org {
     font-size: 20px;
+    font-weight: 600;
+    color: var(--color-light-text);
+    margin-bottom: 4px;
 }
 
 .skills {
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    margin: 7px 0;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0;
 }
 
 .skill {
     list-style: none;
     background: var(--color-bg);
     color: var(--color-purple);
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 6px 12px;
+    border-radius: 8px;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .desc {
     margin-left: 15px; 
-    margin-top: 6px;
+    margin-top: 8px;
     font-weight: 200;
+    line-height: 1.6;
+    color: var(--color-light-text);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+    
+    .role {
+        font-size: 28px;
+    }
 }

@@ -7,9 +7,11 @@ export const PastProjectCard = ({ project : {title, projectType, imageSrc, descr
         <div className={styles.container}>
             <div className={styles.content}>
                 <h3 className={styles.title}>{title}</h3>
-                <div className={styles.imageContainer}>
-                    <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`} className={`${styles.image} ${styles.aboutItem}`}/>
-                </div>
+                {imageSrc && (
+                    <div className={styles.imageContainer}>
+                        <img src={getImageUrl(imageSrc)} alt="" className={`${styles.image} ${styles.aboutItem}`}/>
+                    </div>
+                )}
                 <h4 className={styles.projectType}>{projectType}</h4>
                 <p className={styles.description}>{description}</p>
                 <ul className={styles.skills}>

@@ -2,13 +2,9 @@
 
 .container {
     background-color: var(--color-bg);
-    padding: 20px 0;
+    padding: 76px 10%;
     margin-left: 0;
     margin-right: 0;
-}
-
-.container {
-    padding: 76px 10%;
 }
 
 .title {
@@ -17,15 +13,81 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     color: var(--color-purple);
+    margin-bottom: 50px;
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timelineLine {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: var(--color-purple);
+    transform: translateX(-50%);
+    z-index: 1;
 }
 
 .experiences {
-    margin-top: 37px;
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px; 
+    gap: 40px;
     width: 100%;
+}
+
+.timelineItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+}
+
+.timelineItem:nth-child(odd) {
+    justify-content: flex-end;
+    padding-right: calc(50% + 30px);
+}
+
+.timelineItem:nth-child(even) {
+    justify-content: flex-start;
+    padding-left: calc(50% + 30px);
+}
+
+.timelineNode {
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-purple);
+    border: 4px solid var(--color-bg);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    box-shadow: 0 0 0 4px var(--color-purple);
+}
+
+@media screen and (max-width: 768px) {
+    .timelineLine {
+        left: 30px;
+        transform: none;
+    }
+    
+    .timelineItem {
+        justify-content: flex-start !important;
+        padding-left: 70px !important;
+        padding-right: 0 !important;
+    }
+    
+    .timelineNode {
+        left: 30px;
+        transform: translateX(-50%);
+    }
 }
 

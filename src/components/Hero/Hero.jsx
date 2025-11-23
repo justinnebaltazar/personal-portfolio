@@ -9,7 +9,7 @@ export const Hero = () => {
                 <h1 className={styles.title}>
                     JUSTINNE BALTAZAR
                 </h1>
-                 <p className={styles.description}>An aspiring software developer with an interest in web development and computer systems</p>
+                 <p className={styles.description}>An aspiring developer with a keen interest in data science, machine learning, and AI, with a focus on building practical, data-driven solutions.</p>
                 <ul className={styles.links}>
                     <li><a href="https://github.com/justinnebaltazar"><img src={getImageUrl("hero/github-dark.png")} alt="github-icon" className={styles.github} /></a></li>
                     <li><a href="https://www.linkedin.com/in/justinnebaltazar/"><img src={getImageUrl("hero/linkedin-dark.png")} alt="github-icon" className={styles.linkedin} /></a></li>
