@@ -1,17 +1,14 @@
 @import "../../variables.css";
 
 .container {
-    color: var(--color-light-text);
-    background-color: var(--color-bg);
     padding: 79px 10%;
 }
 
 .title {
-    color: var(--color-purple);
+    color: black;
     font-size: 45px; 
     font-weight: 700;
     letter-spacing: 1.75px;
-    text-transform: uppercase;
 }
 
 .content {
@@ -34,12 +31,11 @@
     flex-direction: column;
     align-items: center;
     gap: 11px;
-    font-weight: 700;
-    color: var(--color-purple);
+    color: black;
 }
 
 .skillImageContainer {
-    background-color: var(--color-dark);
+    background-color: black;
     border-radius: 100%;
     display: flex;
     align-items: center;

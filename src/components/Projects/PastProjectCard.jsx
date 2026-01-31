@@ -1,6 +1,5 @@
 import { getImageUrl } from "../../utils";
 import styles from "./PastProjectCard.module.css";
-import { Link } from "react-router-dom";
 
 export const PastProjectCard = ({ project : {title, projectType, imageSrc, description, skills, demo, source, componentTitle}}) => {
     return (
@@ -12,7 +11,6 @@ export const PastProjectCard = ({ project : {title, projectType, imageSrc, descr
                         <img src={getImageUrl(imageSrc)} alt="" className={`${styles.image} ${styles.aboutItem}`}/>
                     </div>
                 )}
-                <h4 className={styles.projectType}>{projectType}</h4>
                 <p className={styles.description}>{description}</p>
                 <ul className={styles.skills}>
                     {skills.map((skill, id) => {

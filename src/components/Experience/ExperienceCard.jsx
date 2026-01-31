@@ -1,7 +1,7 @@
-import React from "react";
 import styles from "./ExperienceCard.module.css"
+import { getImageUrl } from "../../utils";
 
-export const ExperienceCard = ({ experience : {role, date, organization, descriptions, skills}}) => {
+export const ExperienceCard = ({ experience : {role, date, organization, descriptions, skills, link}}) => {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
@@ -24,6 +24,13 @@ export const ExperienceCard = ({ experience : {role, date, organization, descrip
                         )})
                     }
                 </ul>
+
+                {link && (
+                    <div className={styles.click}>
+                        <img src={getImageUrl("projects/link-icon.png")} className={styles.logo}/>
+                        <a className={styles.link} href={link} target="_blank" rel="noreferrer noopener">Live</a>
+                    </div>
+                )}
             </div>
         </div>
     )

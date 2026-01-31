@@ -2,11 +2,12 @@
   {
     "title": "Waste Image Classification",
     "projectType": "Machine Learning",
-    "imageSrc": null,
+    "imageSrc": "projects/waste-classifier.png",
     "description": "A deep learning model built with PyTorch to classify waste into four categories—compost, recycle, paper, and trash. Trained on a combined dataset using custom DataLoaders, extensive preprocessing, and hyperparameter tuning. Includes evaluation through confusion matrices, classification reports, and a Flask API for real-time predictions.",
     "skills": ["PyTorch", "Python", "NumPy", "pandas", "Matplotlib", "Scikit-learn", "Flask"],
     "recent": true,
-    "source": null
+    "source": "https://github.com/justinnebaltazar/waste-classifier-model",
+    "demo": "https://waste-classifier-theta.vercel.app"
   }, 
   {
     "title": "Anomaly Detection in Energy Consumption",

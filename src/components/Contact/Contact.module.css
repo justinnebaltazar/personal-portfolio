@@ -1,7 +1,7 @@
 @import "../../variables.css"; 
 
 .container {
-    color: var(--color-purple);
+    color: black;
     background-color: var(--color-bg);
     display: flex;
     flex-direction: row;

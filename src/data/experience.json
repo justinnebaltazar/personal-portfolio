@@ -7,7 +7,8 @@
             "Collaborating with design team and developer to plan and prototype a website to showcase UNICEF’s initiatives and expand visibility beyond the SFU community",
             "Working closely with board members to gather requirements and translate organizational goals into website features and content"
         ],
-        "skills": ["React", "Tailwind CSS", "Figma"]
+        "skills": ["React", "Tailwind CSS", "Figma"],
+        "link": "https://unicefsfucampusclub.ca"
     },
     {
         "role": "Software Developer", 

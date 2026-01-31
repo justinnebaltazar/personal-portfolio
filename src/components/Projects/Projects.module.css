@@ -26,9 +26,8 @@
     position: relative;
     font-size: 45px;
     font-weight: 700;
-    color: var(--color-purple);
+    color: black;
     letter-spacing: 1.75px;
-    text-transform: uppercase;
     z-index: 1;
     margin: 0;
 }
@@ -45,11 +44,11 @@
 
 .viewPastProjectsBtn {
     text-decoration: none;
-    color: var(--color-btn);
-    font-size: 18px;
+    color: white;
+    font-size: 24px;
     font-weight: 600;
     border-radius: 6px;
-    background: var(--color-secondary);
+    background: black;
     padding: 10px 24px;
     transition: background-color 0.3s ease;
     display: inline-block;
